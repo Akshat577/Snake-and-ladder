@@ -12,7 +12,7 @@ html {
   }
   
   canvas {
-    background-image: url("./board.jpg");
+    background-image: url("./snakesAndLaddersBoard.jpg");
     border: 5px solid grey;
     border-radius: 7px;
     height: 500px;
