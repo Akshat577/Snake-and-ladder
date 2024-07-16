@@ -12,7 +12,7 @@ html {
   }
   
   canvas {
-    background-image: url("https://assets.codepen.io/215128/snakesAndLaddersBoard.jpg");
+    background-image: url("./board.jpg");
     border: 5px solid grey;
     border-radius: 7px;
     height: 500px;
@@ -44,7 +44,7 @@ html {
   }
   
   #diceThrow {
-    background-image: url("https://assets.codepen.io/215128/diceSpots.png");
+    background-image: url("./diceSpots.webp");
     background-size: 50px;
     border: 2px solid black;
     border-radius: 7px;
