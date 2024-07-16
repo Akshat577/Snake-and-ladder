@@ -26,7 +26,6 @@ You can play the game [here](https://snakelad.netlify.app/).
 2. **Scoring System:** Implement a scoring system to track wins and losses over multiple games.
 3. **Leaderboard:** Display a leaderboard for high scores.
 4. **Sound Effects:** Add sound effects for dice rolls and player movements.
-5. **Mobile Compatibility:** Optimize the game for mobile devices.
 
    
   ## Setup
