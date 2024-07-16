@@ -1,7 +1,7 @@
 # Snake and ladder game
 A web-based implementation of the classic Snakes & Ladders board game. The game can be played by one player against an automated opponent.
 ## Demo
-You can play the game  https://snakelad.netlify.app/
+You can play the game [here](https://snakelad.netlify.app/).
 ## Features
 - Play Snakes & Ladders against an automated opponent
 - Animated movement of pieces
@@ -13,7 +13,22 @@ You can play the game  https://snakelad.netlify.app/
 - CSS3
 - JavaScript
 - [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap)
+  
+## Implementation
+### Project Features
+1. **Animated Movement:** Smooth animations for player movements using GSAP.
+2. **Random Dice Rolls:** Randomized dice rolls to determine player moves.
+3. **Player Display:** Shows which player's turn it is and the winner.
+4. **Obstacles Handling:** Snakes and ladders are implemented with automatic movement when a player lands on them.
 
+### Future Extensions
+1. **Multiplayer Mode:** Allow multiple human players to play together.
+2. **Scoring System:** Implement a scoring system to track wins and losses over multiple games.
+3. **Leaderboard:** Display a leaderboard for high scores.
+4. **Sound Effects:** Add sound effects for dice rolls and player movements.
+5. **Mobile Compatibility:** Optimize the game for mobile devices.
+
+   
   ## Setup
 To run this project locally, follow these steps:
 
@@ -46,4 +61,10 @@ To run this project locally, follow these steps:
 - **Roll Dice:** Click on the dice image to roll.
 - **Play Again:** Click on the "Play Again" button after the game ends.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+- [GSAP](https://greensock.com/gsap) for animations.
+- [FontAwesome](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css) for icons.
   
