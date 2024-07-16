@@ -34,7 +34,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/snakes-and-ladders.git
+    git clone https://github.com/Akshat577/snakes-and-ladders.git
     ```
 
 2. **Navigate to the project directory:**
@@ -60,9 +60,6 @@ To run this project locally, follow these steps:
 ### Controls
 - **Roll Dice:** Click on the dice image to roll.
 - **Play Again:** Click on the "Play Again" button after the game ends.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 - [GSAP](https://greensock.com/gsap) for animations.
