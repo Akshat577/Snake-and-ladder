@@ -203,17 +203,3 @@ resetGameBtn.addEventListener('click', resetGame);
 let walkSequence = boustrophedonWalk(10, 10);
 setPlayerID();
 
-// Test method to show obstacles
-const drawObstacles = () => {
-	ctx.clearRect(0, 0, width, height);
-	for(let i=0; i < obstacles.length; i++){
-		let ob = obstacles[i];
-		ctx.strokeStyle = ob.type === 'snake' ? '#d00' : '#0d0';
-		ctx.beginPath();
-		ctx.moveTo(walkSequence[ob.start-1].x+gridSize*.5, walkSequence[ob.start-1].y+gridSize*.5);
-		ctx.lineTo(walkSequence[ob.end-1].x+gridSize*.5, walkSequence[ob.end-1].y+gridSize*.5);
-		ctx.stroke();
-		ctx.closePath();
-	}
-}
-// drawObstacles();
