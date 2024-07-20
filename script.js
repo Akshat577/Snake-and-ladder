@@ -47,17 +47,17 @@ const setLocked = (tf) => {
 }
 
 const boustrophedonWalk = (cols, rows) => {
-	let temp = [];
-	for(let row=0; row<rows; row++){
-		let t = Array.apply(null, Array(cols)).map((x, col) => {
-			return {id:col+row*cols, y:height - gridSize - row*gridSize, x:col*gridSize};
-		});
-		t = row % 2 ? t.reverse() : t;
-		temp = [...temp, ...t];
-	}
-	return temp;
+    let temp = [];
+    for (let row = 0; row < rows; row++) {
+        for (let col = 0; col < cols; col++) {
+            let id = col + row * cols;
+            let x = (row % 2 === 0) ? col * gridSize : (cols - 1 - col) * gridSize;
+            let y = height - gridSize - row * gridSize;
+            temp.push({ id, x, y });
+        }
+    }
+    return temp;
 }
-
 const drawPlayers = () => {
 	ctx.clearRect(0, 0, width, height);
 	if(player1.current > 0) {
